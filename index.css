@@ -1,8 +1,14 @@
-section{
-    display: flex;
-    width: 600px;
-    height: 430px;
+html, body {
+    margin: 0;
+    padding: 0;
+}
 
+section {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 section img {
@@ -11,9 +17,11 @@ section img {
     object-fit: cover;
     opacity: .8;
     transition: .5s ease;
+    margin: 0;
+    padding: 0;
 }
 
-section img:hover{
+section img:hover {
     cursor: crosshair;
     width: 300px;
     opacity: 1;
