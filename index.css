@@ -3,12 +3,19 @@ html, body {
     padding: 0;
 }
 
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
 section {
     display: flex;
     width: 100vw;
     height: 100vh;
     margin: 0;
     padding: 0;
+    overflow-x: scroll;
+    white-space: nowrap; 
 }
 
 section img {
@@ -26,4 +33,9 @@ section img:hover {
     width: 300px;
     opacity: 1;
     filter: contrast(120%);
+}
+
+img {
+    width: 100vw; 
+    height: auto;
 }
